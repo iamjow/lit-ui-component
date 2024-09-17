@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'https://unpkg.com/lit@2.0.0?module'; // Ensure you're using a CDN link
+import { LitElement, html, css } from 'https://unpkg.com/lit@2.0.0?module';
 
 class MyButton extends LitElement {
   static styles = css`
@@ -25,3 +25,7 @@ class MyButton extends LitElement {
 }
 
 customElements.define('jowin-button', MyButton);
+
+export { MyButton };
+
+// No need to re-export here
