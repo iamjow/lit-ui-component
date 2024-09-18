@@ -4,14 +4,14 @@ class MyButton extends LitElement {
   static styles = css`
     button {
       padding: 10px 20px;
-      background-color: #6200ee;
+      background-color: #eb4034;
       color: white;
       border: none;
       border-radius: 5px;
       cursor: pointer;
     }
     button:hover {
-      background-color: #3700b3;
+      background-color: #e65a50;
     }
   `;
 
